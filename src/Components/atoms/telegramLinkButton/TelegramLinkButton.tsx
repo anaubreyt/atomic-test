@@ -1,6 +1,7 @@
 import React from 'react'
 import TelegramIcon from '../icons/telegram.tsx'
 import { handleButtonClick } from './utilits.ts'
+//@ts-ignore
 import style from './TelegramLinkButton.module.css'
 
 type Props = {
