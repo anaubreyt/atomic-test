@@ -1,0 +1,25 @@
+.telegramButton {
+  padding-left: 8px;
+  padding-right: 10px;
+  text-decoration: none;
+
+  color: #FEFEFE;
+  border-radius: 20px;
+  background: #54A9EB;
+  width: auto;
+  height: 40px;
+  display: flex;
+  border: none;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Comfortaa",sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.telegramIcon {
+     /* color к svg не пременимо */
+    width: 22px;
+    fill: #1f4d0a;
+}

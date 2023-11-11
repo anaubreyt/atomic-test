@@ -1,6 +1,6 @@
 import React from 'react'
 import PresentationIcon from '../icons/presentation.tsx'
-import { exCoinsPdF } from '../../../path/path.tsx'
+import { exCoinsPdF } from '../../../path/path.ts'
 
 export default function PresentationLinkButton(): JSX.Element {
 

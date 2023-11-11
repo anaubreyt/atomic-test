@@ -1,6 +1,7 @@
 import React from 'react'
 import TelegramIcon from '../icons/telegram.tsx'
-import { handleButtonClick } from './utilits.tsx'
+import { handleButtonClick } from './utilits.ts'
+import style from './TelegramLinkButton.module.css'
 
 type Props = {
     buttonText: string;
@@ -11,11 +12,11 @@ export default function TelegramLinkButton ( {buttonText}: Props ): JSX.Element 
   
     return (
       <a href='###'
-        className='telegram-button' 
+        className={style.telegramButton} 
         onClick={(e)=> handleButtonClick(e)}
         style={{ width: buttonWidth }}
       >
-        <TelegramIcon className="telegram-icon"/>
+        <TelegramIcon className={style.telegramIcon} />
         {buttonText}
       </a>
     )

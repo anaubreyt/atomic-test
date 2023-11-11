@@ -1,5 +1,5 @@
 import React from 'react'
-import { oauthTelegram } from '../../../path/path.tsx'
+import { oauthTelegram } from '../../../path/path.ts'
 
 export const handleButtonClick = (e: React.MouseEvent<HTMLAnchorElement>): void => {
     e.preventDefault()
