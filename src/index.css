@@ -1,0 +1,50 @@
+.telegram-icon {
+    width: 22px;
+    color: #FEFEFE;
+}
+
+.telegram-button {
+    padding-left: 8px;
+    padding-right: 10px;
+    text-decoration: none;
+
+    color: #FEFEFE;
+    border-radius: 20px;
+    background: #54A9EB;
+    width: auto;
+    height: 40px;
+    display: flex;
+    border: none;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Comfortaa",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.telegram-button--text {
+    width: 220px
+}
+
+.presentation-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #EEA016;
+    border-radius: 50%;
+}
+.presentation-icon__picture{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 70%;
+  height: 70%;
+} 
+
+.buttons-form {
+    display: flex;   
+    gap: 15px; 
+}

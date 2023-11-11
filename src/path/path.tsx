@@ -1,0 +1,2 @@
+export const oauthTelegram: string = 'https://oauth.telegram.org/auth?bot_id=5205558620&origin=https%3A%2F%2Fex-coins.net&embed=1&request_access=write&return_to=https%3A%2F%2Fex-coins.net%2Flogin'
+export const exCoinsPdF: string = 'https://ex-coins.net/presentation/presentation_ru.pdf'
